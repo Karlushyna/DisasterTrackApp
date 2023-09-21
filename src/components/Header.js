@@ -10,7 +10,7 @@ const Header = ({ menu }) => {
   return (
     <header className={styles.header}>
       <div className={styles.titleWrapper}>
-        <h1 className={styles.title}>Natural Events Tracker</h1>
+        <h1 className={styles.title}>World Natural Disaster Tracker</h1>
         <h1>(Powered By NASA)</h1>
       </div>
       <div className={styles.menu} onClick={toggleMenu}>
