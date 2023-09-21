@@ -14,11 +14,6 @@ const Menu = ({ updater, isOpen }) => {
     <div className={`${styles.menu} ${!isOpen ? styles.invisible : ""}`}>
       <FormGroup>
         <FormControlLabel
-          control={<Checkbox defaultChecked id="earthquakes" />}
-          label="Earthquakes"
-          onChange={updateEventOptions}
-        />
-        <FormControlLabel
           control={<Checkbox defaultChecked id="floods" />}
           label="Floods"
           onChange={updateEventOptions}
@@ -36,6 +31,11 @@ const Menu = ({ updater, isOpen }) => {
         <FormControlLabel
           control={<Checkbox defaultChecked id="wildfires" />}
           label="Wildfires"
+          onChange={updateEventOptions}
+        />
+        <FormControlLabel
+          control={<Checkbox defaultChecked id="earthquakes" />}
+          label="Earthquakes"
           onChange={updateEventOptions}
         />
       </FormGroup>

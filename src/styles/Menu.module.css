@@ -4,9 +4,10 @@
     right: 0;
     z-index: 4;
     height: max-content;
-    background-color: darkgray;
+    background-color: rgb(172, 202, 197);
     padding: 1rem;
     width: 50vw;
+    border-radius: 5px;
   }
   
   .invisible {
